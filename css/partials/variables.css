@@ -1,0 +1,22 @@
+
+
+
+html, body {
+    margin: 0%;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+
+}
+
+/* CSS Variables */
+ :root {
+     --primary-color: #30a291;
+     --primary-color2: #31b0fb;
+     --title-color: #212121;
+     --text-color: #777777;
+     --gradient-color: linear-gradient(90deg, #30a291 0%, #31b0fb 100%);
+
+     --roboto: 'Roboto', sans-serif;
+ }
+
