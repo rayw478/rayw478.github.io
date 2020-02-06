@@ -14,9 +14,8 @@
 }
 
 .header_area, .main-menu, .nav-item, .nav-link {
-    font-family: var(--roboto);
+    font: normal 500 15px/2px var(--roboto);
     text-transform: uppercase;
-    font-weight: bold;
     padding: 1.7rem;
     color: var(--title-color);
 }
@@ -36,6 +35,45 @@
 }
 
 /* Nav Bar End */
+
+/* Banner Area */
+
+.site-main .site-banner {
+    background: linear-gradient(90deg, #30a291 0%, #31b0fb 100%);
+    background-position: 0% 50%;
+}
+
+.site-main .site-banner .site-title h3 {
+    padding-top: 35%;
+    font-weight: 500;
+}
+
+.site-main .site-banner .site-title h3::after {
+    content: "";
+    height: 2px;
+    width: 18vw;
+    background: black;
+    display: inline-block;
+    margin-left: 5%;
+    transform: translateY(-10px);
+}
+
+.site-main .site-banner .site-title h1 {
+     font-size: 5rem;
+ }
+
+.site-main .site-banner .site-title h4 {
+    font-size: 1.5rem;
+}
+
+.site-main .site-banner .banner-image > img{
+   padding: 7rem 0;
+    width: 90rem;
+}
+
+/* End Banenr Area */
+
+
 
 .background {
     background-image: linear-gradient(90deg, #30a291 0%, #31b0fb 100%);
