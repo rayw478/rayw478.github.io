@@ -3,6 +3,9 @@
 @import "fonts.css";
 @import "partials/variables.css";
 
+/* Global Style Sheet */
+@import "partials/global.css";
+
 /* Nav Bar Start */
 
 .header_area, .main-menu, .navbar, .navbar-brand {
@@ -39,8 +42,7 @@
 /* Banner Area */
 
 .site-main .site-banner {
-    background: linear-gradient(90deg, #30a291 0%, #31b0fb 100%);
-    background-position: 0% 50%;
+    /*background: linear-gradient(90deg, #30a291 0%, #31b0fb 100%) 0 50%; */
 }
 
 .site-main .site-banner .site-title h3 {
@@ -71,9 +73,30 @@
     width: 90rem;
 }
 
-/* End Banenr Area */
+.title-text {
+    font: normal bold 50px/72px var(--roboto);
+}
 
+/* End Banner Area */
 
+/* Start About Me Area */
+
+.site-main .about-area {
+    padding: 8rem 5rem;
+}
+
+.site-main .about-area .about-title h2 > span {
+    display: block;
+    font: normal bold 49px/60px var(--roboto);
+    letter-spacing: 21px;
+}
+
+.site-main .about-area .about-title .paragraph > p {
+    padding: 0.4rem 0;
+
+}
+
+/* End About Me Area */
 
 .background {
     background-image: linear-gradient(90deg, #30a291 0%, #31b0fb 100%);
